@@ -1,6 +1,7 @@
 package procon.core.properties;
 
-@Deprecated //This file shouldn't be necessary in Java version, if I get it right this is sort of build file for Visual Studio
+@Deprecated
+//This file shouldn't be necessary in Java version, if I get it right this is sort of build file for Visual Studio
 public class AssemblyInfo {
     /*using System.Reflection;
     using System.Runtime.CompilerServices;

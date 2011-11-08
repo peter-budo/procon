@@ -1,9 +1,9 @@
 package procon.core;
 
-public enum TimeoutSubset {
+public class TimeoutSubset {
     /*[Serializable]
     public class TimeoutSubset {
-
+        TODO check usage to see if it should be moved out of class
         public enum TimeoutSubsetType {
             None,
             Permanent,
