@@ -1,5 +1,6 @@
 package procon.core;
 
+@Deprecated //TODO doesn't seems to be used anywhere
 public class GeoIPCountry {
 
     /*
