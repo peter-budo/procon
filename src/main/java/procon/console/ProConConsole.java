@@ -1,7 +1,7 @@
 package procon.console;
 
-public class Program {
-    /*class Program {
+public class ProConConsole {
+    /*class ProConConsole {
 
         static void Main(string[] args) {
 
