@@ -7,7 +7,8 @@
     <name>Procon</name>
     <description>Converting existing code base of Procon admin tool from C# to Java.
         Copy of f47679346ab0 branch http://procon.codeplex.com/SourceControl/changeset/view/f47679346ab0#
-    THIS IS UNOFFICIAL, JUST ONE OF THESE PERSONAL CODING PROJECTS! </description>
+        THIS IS UNOFFICIAL, JUST ONE OF THESE PERSONAL CODING PROJECTS!
+    </description>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -27,6 +28,13 @@
     </developers>
 
     <dependencies>
+        <!-- Library intended to prevent a user to run simultaneously more instances of the same Java application -->
+        <dependency>
+            <groupId>de.huxhorn.lilith</groupId>
+            <artifactId>de.huxhorn.lilith.3rdparty.junique</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
