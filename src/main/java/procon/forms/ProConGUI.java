@@ -1,6 +1,6 @@
 package procon.forms;
 
-public class FrmMain {
+public class ProConGUI {
 
     /*public partial class frmMain : Form {
 
