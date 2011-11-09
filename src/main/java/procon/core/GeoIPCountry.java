@@ -2,25 +2,7 @@ package procon.core;
 
 public class GeoIPCountry {
 
-    /*/// <summary>
-	/// Allows for looking up a country based on an Ip address.  See www.maxmind.com for more details.
-	/// </summary>
-	/// <example>
-	///		static void Main(string[] args)
-	///		{
-	///			using(GeoIPCountry geo = new GeoIPCountry("GeoIP.dat"))
-	///			{
-	///				try
-	///				{
-	///					Console.WriteLine("Country code of Ip address 67.15.94.80: " + geo.GetCountryCode("67.15.94.80"));
-	///				}
-	///				catch(Exception ex)
-	///				{
-	///					Console.WriteLine(ex.ToString());
-	///				}
-	///			}
-	///		}
-	/// </example>
+    /*
 	public sealed class GeoIPCountry : IDisposable
 	{
 		Stream _geodata;
