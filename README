@@ -1,6 +1,11 @@
+THIS PROJECT IS NOT OFFICIAL PROCON DEVELOPMENT!
+
 This is attempt to convert existing popular games admin console (for Battlefield - Bad Company 2, Battlefield 3)
 from Procon written in C# to Java. Aim of this conversion is provided multiple application target options such as:
 - stand alone GUI
 - web application with web container that can be easily deploy on any existing clan/club/community server
 - Android application (presumably just limited functionality of above options such as enforcing server rules,
   monitoring players behaviour {language, players abuse, team-killing, baseraping }, map change, making space for member)
+
+I started conversion with copy of f47679346ab0
+branch http://procon.codeplex.com/SourceControl/changeset/view/f47679346ab0
