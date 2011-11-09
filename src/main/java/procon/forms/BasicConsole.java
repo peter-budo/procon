@@ -17,7 +17,7 @@ public class BasicConsole {
 
             this.m_praApplication = this.WindowLoaded(false);
             this.m_praApplication.Connections.ConnectionAdded += new ConnectionDictionary.ConnectionAlteredHandler(Connections_ConnectionAdded);
-            this.m_praApplication.Execute();
+            this.m_praApplication.execute();
 
             if (this.m_praApplication.CustomTitle.Length > 0) {
                 this.Text = this.m_praApplication.CustomTitle;

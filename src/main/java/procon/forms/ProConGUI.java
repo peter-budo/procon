@@ -110,7 +110,7 @@ public class ProConGUI {
             this.m_paProcon.AutoUpdater.VersionChecker.DownloadError += new CDownloadFile.DownloadFileEventDelegate(VersionChecker_DownloadError);
             this.m_paProcon.AutoUpdater.UpdateDownloading += new AutoUpdater.UpdateDownloadingHandler(m_paProcon_UpdateDownloading);
 
-            this.m_paProcon.Execute();
+            this.m_paProcon.execute();
 
             if (this.m_paProcon.CustomTitle.Length > 0) {
                 this.Text = this.m_paProcon.CustomTitle;

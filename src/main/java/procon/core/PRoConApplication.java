@@ -2,12 +2,10 @@ package procon.core;
 
 public class PRoConApplication {
 
-    /*
+
     // This, renamed or whatever, will eventually be the core app.
     // Will contain what frmMain.cs contains/does at the moment.
-
-    public class PRoConApplication {
-
+/*
         public delegate void CurrentLanguageHandler(CLocalization language);
         public event CurrentLanguageHandler CurrentLanguageChanged;
 
@@ -163,11 +161,11 @@ public class PRoConApplication {
                     }
                 }
             }
-        }
+        }*/
 
-        public static bool IsProcessOpen() {
+        public static boolean isProcessOpen() {
 
-            int processCount = 0;
+            /*int processCount = 0;
 
             Process currentProcess = Process.GetCurrentProcess();
             foreach (Process instance in Process.GetProcessesByName(currentProcess.ProcessName)) {
@@ -183,12 +181,14 @@ public class PRoConApplication {
 
             }
 
-            return (processCount > 1);
+            return (processCount > 1);*/
+            return false;
         }
 
-        public PRoConApplication(bool consoleMode, string[] args) {
 
-            this.LoadingMainConfig = true;
+        public PRoConApplication(boolean consoleMode, String[] args) {
+
+            /*this.LoadingMainConfig = true;
             this.LoadingAccountsFile = true;
 
             this.BlockUpdateChecks = false;
@@ -261,12 +261,12 @@ public class PRoConApplication {
             // Create the initial web server object
             this.ExecutePRoConCommand(this, new List<string>() { "procon.private.httpWebServer.enable", "false", "27360", "0.0.0.0" }, 0);
 
-            //this.Execute();
+            //this.execute();*/
         }
 
-        public void Execute() {
+        public void execute() {
             // Load all of the accounts.
-            this.UpdateRss();
+            /*this.UpdateRss();
 
             this.ExecuteMainConfig("accounts.cfg");
             this.LoadingAccountsFile = false;
@@ -276,9 +276,9 @@ public class PRoConApplication {
 
             this.m_isCheckerRunning = true;
             this.m_thChecker = new Thread(this.ReconnectVersionChecker);
-            this.m_thChecker.Start();
+            this.m_thChecker.Start();*/
         }
-
+/*
         private void HttpWebServer_ProcessRequest(HttpWebServerRequest sender) {
 
             string[] directories = sender.Data.RequestPath.Split(new string[] { "/" }, StringSplitOptions.RemoveEmptyEntries);
@@ -1418,6 +1418,5 @@ public class PRoConApplication {
                 this.HttpWebServer.Shutdown();
                 this.HttpWebServer = null;
             }
-        }
-    }*/
+        }*/
 }

@@ -3,7 +3,9 @@ package procon;
 public class PRoCon {
 
 
-    /*public static PRoConApplication m_application;
+    /*
+    TODO determinate usage of this class
+    public static PRoConApplication m_application;
     public static string[] m_Args;
 
     /// <summary>
@@ -89,7 +91,7 @@ public class PRoCon {
         Program.m_application = new PRoConApplication(false, Program.m_Args);
 
         if (execute == true) {
-            Program.m_application.Execute();
+            Program.m_application.execute();
         }
 
         return Program.m_application;
